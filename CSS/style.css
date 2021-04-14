@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Redressed&display=swap');
+
+#title{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    height: 650px;
+}
+
+.button-1{
+    position: relative;
+    left: 120px;
+}
+
+#btn-1{
+    margin: 2em 2em 2em 0em;
+    padding: 10px 15px 10px 15px;
+
+}
+
+#btn-2{
+    margin: 2em 2em 2em 0em;
+}
+
+.navbar-brand{
+    font-family: 'Redressed', cursive;  
+    font-size: 4rem !important;
+    font-weight:400;
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 1.25;
+    width: 500px;
+}
+
+p{
+ font-family: 'Redressed', cursive;
+ font-size: 18px; 
+}
+
+.nav-link{
+    font-family: 'Redressed', cursive;  
+    font-weight: 100;
+    font-size: 2.8rem !important;
+    position: relative;
+    right: 200px !important;
+    top: 12px !;
+}
+
+.navbar{
+    padding: 2rem 0 4.5rem 0 !important;
+}
+
+.nav-item{
+    padding: 0 18px !important;
+}
+
+.container-fluid{
+    width: 75%;
+}
+
+
+.fluid-container{
+    width: 70%;
+    margin: auto;
+}
+
+.cat{
+  position: relative;
+  right: 20px;
+  bottom: 10px;
+}
+
+#features{
+    background-color: #fff;
+    padding: 100px;
+    height: 400px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.features-item{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+#Gallery{
+    background-color: black;
+    padding-bottom: 60px;
+    text-align: center;
+    color: white;
+}
+
+.Gallery-bg{
+    background-color: black;
+}
+
+#Gallery h1{
+    position: relative;
+    left: 130px;
+    padding: 25px;
+}
+
+.carousel-item p, .carousel-item h5{
+    text-align: center;
+    border-style: solid;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(249, 212, 1);
+    border-radius: 25px;
+}
+
+#pricing h2{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 4rem;
+    padding-top: 20px;
+}
+
+#pricing p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cards{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.card{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+#cta h3{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.btn-2{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.social{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.copyright{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.match{
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 200px;
+    background-color: rgb(255, 225, 0);
+    width: 30%;
+}
+
+.matchbody{
+    background-color: black;
+}
+
+#tryagain{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 670px;
+    top: 220px;
+    width: 30%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+
+    #title{
+        background-color: lightcoral;
+        color: #fff;
+        height: 850px;
+    }
+    
+    .button-1{
+        position: relative;
+        left: 38px;
+        display: flex;
+        width: 300px;
+    }
+    
+    #btn-1{
+        margin: 1em 1em 1em 0em;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    #btn-2{
+        margin: 1em 1em 1em 0em;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .navbar-brand{
+        font-family: 'Redressed', cursive;  
+        font-size: 2.5rem !important;
+        font-weight:400;
+        text-decoration: underline;
+    }
+    
+    h1{
+        font-family: 'Inconsolata', monospace;
+        font-weight: 800;
+        font-size: 3rem;
+        line-height: 1.25;
+        width: 300px;
+        position: relative;
+        right: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    p{
+     font-family: 'Redressed', cursive;
+     font-size: 20px;
+     width: 300px;
+     text-align: center;
+     position: relative;
+     right: 10px !important;
+    }
+    
+    .navbar{
+        padding: 1rem 0 2.5rem 0 !important;
+    }
+    
+    .nav-item{
+        padding: 0 10px !important;
+    }
+    
+    .container-fluid{
+        width: 75%;
+    }
+    
+    .fluid-container{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .nest{
+      position: relative;
+      right: 35px;
+      bottom: 10px;
+      height: 200px;
+    }
+    
+    #features{
+        background-color: #fff;
+        padding: 10px;
+        height: 720px;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    
+    .features-item{
+        padding-right: 10px;
+        padding-left: 35px;
+    }
+    
+    #Gallery{
+        background-color: lightcoral;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    
+    .Gallery-bg{
+        background-color: lightcoral;
+    }
+    
+    #Gallery h1{
+        position: relative;
+        left: -60px;
+        padding: 25px;
+        width: 400px;
+    }
+    
+    .carousel-item p, .carousel-item h5{
+        text-align: center;
+        border-style: solid;
+        width: 30%;
+        margin: auto;
+        margin-top: 10px;
+        background-color: lightpink;
+        border-radius: 25px;
+
+    }
+    
+    #pricing h2{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 4rem;
+        padding-top: 20px;
+    }
+    
+    .price-head-2{
+        text-align: center;
+        padding-bottom: 20px;
+        position: relative;
+        left: 60px;
+    }
+
+    .card-text {
+        position: relative;
+        right: 20px !important;
+        padding: 10px;
+    }
+    
+    .cards{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    
+    .card{
+        width: 95%;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .card-1{
+        margin-bottom: 30px;
+    }
+
+    .card-2{
+        margin-bottom: 30px;
+    }
+
+    #cta h3{
+        text-align: center;
+        padding: 30px;
+        font-family: 'Inconsolata', monospace;
+        background-color: lightcoral;
+        position: relative;
+        top: 20px;
+    }
+    
+    #cta{
+        background-color: lightcoral;
+        height: 300px;
+    }
+
+    .btn-2{
+        text-align: center;
+        background-color: lightcoral;
+        padding: 20px;
+    }
+    
+    .social{
+        text-align: center;
+        padding: 20px;
+        background-color: lightcoral;
+        position: relative;
+        bottom: 5px;
+    }
+    
+    .copyright p{
+        text-align: center;
+        background-color: lightcoral;
+        padding-bottom: 10px;
+        position: relative;
+        left: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
+
+    #title{
+        background-color: lightcoral;
+        color: #fff;
+        height: 950px;
+        width: 1200px;
+    }
+    
+    .button-1{
+        position: relative;
+        left: 20px;
+    }
+    
+    #btn-1{
+        margin: 2em 2em 2em 0em;
+        padding: 10px 15px 10px 15px;
+    }
+    
+    #btn-2{
+        margin: 2em 2em 2em 0em;
+    }
+    
+    .navbar-brand{
+        font-family: 'Redressed', cursive;  
+        font-size: 8rem !important;
+        font-weight:400;
+        text-decoration: underline;
+    }
+    
+    h1{
+        font-family: 'Inconsolata', monospace;
+        font-weight: 800;
+        font-size: 7rem;
+        line-height: 1.25;
+        width: 800px;
+    }
+    
+    p{
+     font-family: 'Redressed', cursive;
+     font-size: 25px; 
+    }
+    
+    .nav-link{
+        font-family: 'Redressed', cursive;  
+        font-weight: 100;
+        font-size: 2.8rem !important;
+        position: relative;
+        right: 800px !important;
+        top: 12px !;
+    }
+    
+    .navbar{
+        padding: 2rem 0 4.5rem 0 !important;
+    }
+    
+    .nav-item{
+        padding: 0 18px !important;
+    }
+    
+    .container-fluid{
+        width: 75%;
+    }
+    
+    
+    .fluid-container{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .nest{
+      position: relative;
+      left: 130px;
+      bottom: 150px;
+    }
+    
+    #features{
+        background-color: #fff;
+        padding: 100px;
+        height: 900px;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .feature-2{
+        position: relative;
+        left: 200px;
+    }
+
+    .feature-3{
+        position: relative;
+        left: 400px;
+    }
+    .features-item{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+    #Gallery{
+        background-color: lightcoral;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    
+    .Gallery-bg{
+        background-color: lightcoral;
+        width: 1200px;
+    }
+    
+    #Gallery h1{
+        position: relative;
+        left: -150px;
+        padding: 25px;
+    }
+    
+    .carousel-item p, .carousel-item h5{
+        text-align: center;
+        border-style: solid;
+        width: 30%;
+        margin: auto;
+        margin-top: 10px;
+        background-color: lightpink;
+        border-radius: 25px;
+        font-size: small;
+    }
+    
+    .price-head-1{
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        font-size: 6rem;
+        padding-top: 20px;
+        position: relative;
+        left: 200px;
+    }
+    
+    .price-head-2{
+        text-align: center;
+        position: relative;
+        left: 200px;
+        font-size: 25px;
+    }
+
+    .card-1{
+        margin-bottom: 20px;
+    }
+
+    .card-2{
+        position: relative;
+        left: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .card-3{
+        position: relative;
+        left: 450px;
+    }
+    
+    .cards{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+    
+    .card{
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+    
+    }
+
+    #cta{
+        width: 1200px;
+        height: 200px;
+        background-color: lightcoral;
+    }
+    
+    #cta h3{
+        text-align: center;
+        padding: 30px;
+        font-family: 'Inconsolata', monospace;
+        font-size: 36px;
+        position: relative;
+        top: 20px;
+        left: 150px;
+        width: 80%;
+    }
+    
+    .btn-2{
+        text-align: center;
+        background-color: lightcoral;
+        padding: 20px;
+    }
+    
+    .social{
+        text-align: center;
+        padding: 20px;
+        background-color: lightcoral;
+    }
+    
+    .copyright{
+        text-align: center;
+        background-color: lightcoral;
+        padding-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+}
